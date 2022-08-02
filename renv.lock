@@ -1,0 +1,39 @@
+{
+  "R": {
+    "Version": "4.0.4",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      }
+    ]
+  },
+  "Packages": {
+    "objectSignals": {
+      "Package": "objectSignals",
+      "Version": "0.10.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c885b4d0b1b732ec13045d50835efeaf",
+      "Requirements": []
+    },
+    "plumbr": {
+      "Package": "plumbr",
+      "Version": "0.6.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "62cbd728b9a7c52158c14fe268e26785",
+      "Requirements": [
+        "objectSignals"
+      ]
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.15.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "206c4ef8b7ad6fb1060d69aa7b9dfe69",
+      "Requirements": []
+    }
+  }
+}
